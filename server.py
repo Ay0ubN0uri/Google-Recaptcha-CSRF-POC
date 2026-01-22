@@ -230,8 +230,8 @@ def main():
     app.config["USE_NORDVPN"] = not args.no_nordvpn
     app.config["CAPTCHA_URL"] = args.captcha_url
 
-    app.run(host="0.0.0.0", port=4444)
-    # app.run(host="0.0.0.0", port=3333)
+    # app.run(host="0.0.0.0", port=4444)
+    app.run(host="0.0.0.0", port=3333)
     
 
 if __name__ == "__main__":
